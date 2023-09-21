@@ -1,0 +1,103 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.167em;
+  letter-spacing: .05ch;
+  overflow-y: scroll;
+  padding-top: 50px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.167em;
+  letter-spacing: .05ch;
+  padding: 2px 0 2px 0;
+  margin: 0;
+}
+
+p {
+  padding: 10px 0 10px 0;
+  margin: 0;
+  text-align: justify;
+}
+
+hr {
+  border: 0.5px solid rgb(0, 0, 0);
+  margin: 8px 0 0 0;
+}
+
+header {
+  padding: 10px 10px 0 10px ;
+  background-color: #ffffff;
+}
+
+.project-card {
+  padding: 0.5px;
+}
+
+.project-title {
+  padding: 0;
+  box-shadow: none !important;
+}
+
+.project-title a:hover {
+  color: #979797;
+  text-decoration: none;
+}
+
+.card-header {
+  padding: 0;
+  background-color: #ffffff;
+  border: none;
+}
+
+.card {
+  padding: 0 0 10px 0;
+  border: none;
+}
+
+.card-body {
+  padding: 0;
+  border: none;
+}
+
+.custom-img {
+  max-height: 75vh;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.167em;
+  letter-spacing: .05ch;
+}
+
+a:hover {
+  color: #979797;
+  text-decoration: none;
+}
+
+a:active {
+  color: #979797;
+  text-decoration: none;
+}
+
+.project-description {
+  padding: 4px 0 0 0;
+}
