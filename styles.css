@@ -87,7 +87,19 @@ header {
 
 .card-body {
   padding: 0;
-  border: none;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.card-body .row {
+  padding: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card-body div {
+  padding: 0;
 }
 
 .custom-img {
@@ -129,6 +141,7 @@ a:active {
 
 /* Styles for mobile devices */
 @media (max-width: 600px) {
+  
   a:hover {
     color: #222222;
     text-decoration: none;
