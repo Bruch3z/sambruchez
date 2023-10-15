@@ -138,4 +138,8 @@ a:active {
     color: #222222;
     text-decoration: none;
   }
+
+  .project-title:active {
+    color: #222222;
+  }
 }
