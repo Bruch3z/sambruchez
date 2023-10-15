@@ -113,8 +113,6 @@ a:hover {
 a:active {
   color: #ff2e2e;
   text-decoration: none;
-  content: "\25FC"; /* Unicode for black medium square */
-  margin-right: 10px;
 }
 
 .project-description {
@@ -129,3 +127,15 @@ a:active {
   padding-top: 0;
 }
 
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+  a:hover {
+    color: #222222;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #222222;
+    text-decoration: none;
+  }
+}
