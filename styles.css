@@ -9,8 +9,8 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.167em;
+  font-size: 15px;
+  line-height: 1.25em;
   letter-spacing: .05ch;
   overflow-y: scroll;
   padding: 60px 10px 10px 10px;
@@ -20,8 +20,8 @@ body {
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.167em;
+  font-size: 15px;
+  line-height: 1.25em;
   letter-spacing: .05ch;
   padding: 2px 0 2px 0;
   margin: 0;
@@ -29,6 +29,7 @@ h1 {
 
 p {
   padding: 10px 0 10px 0;
+
   margin: 0;
   text-align: justify;
 }
@@ -75,7 +76,7 @@ header {
 
 .btn{
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: .05ch;
   text-align: left;
 }
@@ -112,8 +113,8 @@ header {
 a {
   color: #222222;
   font-family: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.167em;
+  font-size: 15px;
+  line-height: 1.25em;
   letter-spacing: .05ch;
 }
 
@@ -139,6 +140,14 @@ a:active {
   padding-top: 0;
 }
 
+
+/* Language */
+#enLink.active,
+#frLink.active {
+    color: #c4c4c4;
+}
+
+
 /* Styles for mobile devices */
 @media (max-width: 600px) {
   
@@ -155,4 +164,22 @@ a:active {
   .project-title:active {
     color: #222222;
   }
+}
+
+.footer {
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 5px 0 5px 10px;
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 10px;
 }
