@@ -7,20 +7,35 @@ html {
   margin: 0 auto;
 }
 
+main {
+  flex: 1;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 1.25em;
   letter-spacing: .05ch;
   overflow-y: scroll;
   padding: 60px 10px 10px 10px;
   overflow-x: hidden;
-  background-color: #ffffff;
 }
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13.5px;
+  line-height: 1.25em;
+  letter-spacing: .05ch;
+  padding: 2px 0 2px 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 13.5px;
   line-height: 1.25em;
   letter-spacing: .05ch;
   padding: 2px 0 2px 0;
@@ -52,6 +67,8 @@ header {
   width: 100%;
 }
 
+
+
 /*
 .hover-card:hover {
   opacity: 80%;
@@ -62,6 +79,36 @@ header {
   padding: 0;
   box-shadow: none !important;
 }
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*BUY */
+
+.btn {
+  margin-right: auto;
+  color: #000000;
+  text-decoration: none; /* Remove underline */
+}
+
+.btn:hover {
+  text-decoration: none; /* Remove underline on hover */
+  animation: flash 0.25s infinite; /* Apply the 'flash' animation on hover infinitely */
+}
+
+@keyframes flash {
+  0%, 100% {
+    color: rgb(255, 99, 190); /* Blue */
+  }
+  50% {
+    color: #c4c4c4; /* Grey */
+  }
+}
+
 
 .project-title a:hover {
   color: #c4c4c4;
@@ -76,7 +123,7 @@ header {
 
 .btn{
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13.5px;
   letter-spacing: .05ch;
   text-align: left;
 }
@@ -113,7 +160,7 @@ header {
 a {
   color: #222222;
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 1.25em;
   letter-spacing: .05ch;
 }
@@ -168,18 +215,19 @@ a:active {
 
 .footer {
   background-color: #ffffff;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  margin-top: auto;
 }
 
 .footer ul {
   margin: 0;
-  padding: 5px 0 5px 10px;
+  padding-top: 10px;
   list-style-type: none;
 }
 
 .footer ul li {
   display: inline;
-  margin-right: 10px;
+}
+
+#enLink {
+  margin-right: 15px;
 }
