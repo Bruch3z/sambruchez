@@ -89,13 +89,13 @@ header {
 
 /*BUY */
 
-.btn {
+.buy {
   margin-right: auto;
   color: #000000;
   text-decoration: none; /* Remove underline */
 }
 
-.btn:hover {
+.buy:hover {
   text-decoration: none; /* Remove underline on hover */
   animation: flash 0.25s infinite; /* Apply the 'flash' animation on hover infinitely */
 }
