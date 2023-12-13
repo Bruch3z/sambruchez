@@ -105,13 +105,13 @@ header {
     color: rgb(255, 99, 190); /* Blue */
   }
   50% {
-    color: #c4c4c4; /* Grey */
+    color: #b2b4c1; /* Grey */
   }
 }
 
 
 .project-title a:hover {
-  color: #c4c4c4;
+  color: #b2b4c1;
   text-decoration: none;
 }
 
@@ -166,12 +166,12 @@ a {
 }
 
 a:hover {
-  color: #c4c4c4;
+  color: #b2b4c1;
   text-decoration: none;
 }
 
 a:active {
-  color: #c4c4c4;
+  color: #b2b4c1;
   text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ a:active {
 /* Language */
 #enLink.active,
 #frLink.active {
-    color: #c4c4c4;
+    color: #b2b4c1;
 }
 
 
