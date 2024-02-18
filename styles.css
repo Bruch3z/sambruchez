@@ -59,6 +59,15 @@ header {
   background-color: #ffffff;
 }
 
+.workplay {
+  color: #bebebe;
+
+}
+
+.workplay:hover {
+  color: #000000;
+}
+
 .project-card {
   padding: 0.5px;
 }
@@ -108,7 +117,6 @@ header {
     color: #bebebe; /* Grey */
   }
 }
-
 
 .project-title a:hover {
   color: #bebebe;

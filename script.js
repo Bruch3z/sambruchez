@@ -1,4 +1,4 @@
-// Function to update content based on selected language
+// LANGUAGE Function to update content based on selected
 function updateContent(langData, lang) {
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -6,7 +6,7 @@ function updateContent(langData, lang) {
   });
 }
 
-// Function to fetch language data
+// LANGUAGE Function to fetch language data
 async function fetchLanguageData(lang) {
   try {
     const response = await fetch(`languages/${lang}.json`);
@@ -20,7 +20,7 @@ async function fetchLanguageData(lang) {
   }
 }
 
-// Function to change language
+// LANGUAGE Function to change language
 async function changeLanguage(lang, event) {
   event.preventDefault(); // Prevent the default behavior of anchor tag
   localStorage.setItem('language', lang);
@@ -36,13 +36,13 @@ async function changeLanguage(lang, event) {
   event.target.classList.add('active');
 }
 
-// Function to set the language preference
+// LANGUAGE Function to set the language preference
 function setLanguagePreference(lang) {
   localStorage.setItem('language', lang);
   changeLanguage(lang); // Update the content directly without reloading the page
 }
 
-// Call updateContent() on page load
+// LANGUAGE Call updateContent() on page load
 window.addEventListener('DOMContentLoaded', async () => {
   const userPreferredLanguage = localStorage.getItem('language') || 'en';
   const langData = await fetchLanguageData(userPreferredLanguage);
