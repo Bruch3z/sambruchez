@@ -206,6 +206,10 @@ a:active {
 /* Styles for mobile devices */
 @media (max-width: 600px) {
   
+  body {
+    padding: 80px 10px 10px 10px;
+  }
+
   a:hover {
     color: #222222;
     text-decoration: none;
