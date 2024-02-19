@@ -44,9 +44,8 @@ h2 {
 
 p {
   padding: 10px 0 10px 0;
-
   margin: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 hr {
