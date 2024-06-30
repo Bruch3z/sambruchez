@@ -59,33 +59,46 @@ header {
 }
 
 .workplay {
-  color: #bebebe;
-
-}
-
-.workplay:hover {
   color: #000000;
 }
 
+.workplay:hover {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #bebebe;
+  text-decoration: none;
+}
+
 .project-card {
-  padding: 0.5px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 70px;
 }
 
 .project-card img {
-  width: 100%;
+  max-width: 100%;
 }
 
-
-
-/*
-.hover-card:hover {
-  opacity: 80%;
+.project-card a {
+color:#bebebe;
 }
-*/
+
+.project-card a:hover {
+  color:#000000;
+  text-decoration: none;
+  }
 
 .project-title {
   padding: 0;
   box-shadow: none !important;
+
 }
 
 .project-title {
@@ -95,27 +108,7 @@ header {
 }
 
 
-/*BUY */
 
-.buy {
-  margin-right: auto;
-  color: #000000;
-  text-decoration: none; /* Remove underline */
-}
-
-.buy:hover {
-  text-decoration: none; /* Remove underline on hover */
-  animation: flash 0.25s infinite; /* Apply the 'flash' animation on hover infinitely */
-}
-
-@keyframes flash {
-  0%, 100% {
-    color: rgb(255, 99, 190); /* Blue */
-  }
-  50% {
-    color: #bebebe; /* Grey */
-  }
-}
 
 .project-title a:hover {
   color: #bebebe;
@@ -164,21 +157,11 @@ header {
   margin: 0 auto;
 }
 
-a {
-  color: #222222;
-  font-family: Arial, sans-serif;
-  font-size: 13.5px;
-  line-height: 1.25em;
-  letter-spacing: .05ch;
-}
 
-a:hover {
-  color: #bebebe;
-  text-decoration: none;
-}
+
 
 a:active {
-  color: #bebebe;
+  color: #222222;
   text-decoration: none;
 }
 
@@ -190,15 +173,32 @@ a:active {
   color: #222222;
 }
 
-.welcome-to-the-shop {
-  padding-top: 0;
-}
-
 
 /* Language */
 #enLink.active,
 #frLink.active {
+    color: #000000;
+}
+
+/* Language */
+#enLink,
+#frLink {
     color: #bebebe;
+}
+
+/* Default to hide mobile link */
+.mobile-link {
+  display: none;
+}
+
+/* Media query to show mobile link and hide desktop link on screens less than 768px wide (adjust breakpoint as needed) */
+@media (max-width: 767px) {
+  .desktop-link {
+      display: none;
+  }
+  .mobile-link {
+      display: block;
+  }
 }
 
 

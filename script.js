@@ -54,3 +54,4 @@ window.addEventListener('DOMContentLoaded', async () => {
     activeLanguageLink.classList.add('active');
   }
 });
+
