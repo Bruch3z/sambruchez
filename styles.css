@@ -222,6 +222,10 @@ a:active {
   .project-title:active {
     color: #222222;
   }
+
+  .portrait-mobile {
+    padding: 0 60px 0 60px;
+  }
 }
 
 .footer {
