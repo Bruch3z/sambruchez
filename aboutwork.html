@@ -19,93 +19,83 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     
-<body>
+    <body>
 
-    <header class="fixed-top">
-        <div class="container-fluid">
-            <div class="row align-items-end">
-                <div class="col-5 col-sm-6 col-md-4"> 
-                    <div class="row justify-content-start align-items-end">
-                        <div class="col-6 p-0">
-                            <a class="active-page" href="./work">Sam <br/>Bruchez</a>
-                        </div>
-                        <div class="col-6 text-right p-0">
-                            <a href="./aboutwork" data-i18n="about">About</a>
+        <header class="fixed-top">
+            <div class="container-fluid">
+                <div class="row align-items-end">
+                    <div class="col-6"> 
+                        <div class="row justify-content-start align-items-end">
+                            <div class="col-6 p-0">
+                                <a href="./work">Sam Bruchez</a>
+                            </div>
+                            <div class="col-6 p-0">
+                                <a href="./aboutwork" data-i18n="about">About</a>
+                            </div>
                         </div>
                     </div>
-                </div>
     
-                <div class="col-7 col-sm-6 col-md-4">
-                    <div class="row justify-content-end">
-                        <div>
-                            <a class="active-page logo-hover" href="./work">Sam <br/>Bruchez</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <hr>
-    </header>
-    
-    <main>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-4 project-card">
-                    <p data-i18n="aboutwork">
-                        Sam Bruchez is a Swiss-American graphic designer based in NYC. 
-                        <br><br>
-                        Born and raised in the Swiss Alps, Sam combines his experiences in the outdoors with a keen eye for graphic design. He studied marketing at the University of Vermont and graphic design at écal (Lausanne). 
-                        <br><br>
-                        Over the past ten years, Sam has had extensive experience designing for outdoors and fashion brands in Zürich and New York. Some of his previous clients include The North Face, Head and Supreme. 
-                        <br><br>
-                        Recently, he’s been working with The Vermont Law School and FUNDIS, a non-profit studying North American fungi. In his personal design work, Sam is interested in exploring obscure archives about ski history in Valais, the Swiss canton where he grew up.
-                        <br><br>
-                        Skills: graphic design for print and digital, HTML/CSS/JS, fluent in English and French
-                    </p>
-                        <br>
-                        Email: <a href="mailto:sam@sambruchez.com">sam@sambruchez.com</a>
-                        <br><br>
-                        Instagram: <a href="https://www.instagram.com/trickedbytrash/" target="_blank">@trickedbytrash</a>
-                        &
-                        <a href="https://www.instagram.com/echo.memo/" target="_blank">@echo.memo</a>
-                        <br><br>
-                    </p>
                 </div>
             </div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <hr>
-
-        <div class="container-fluid">
-            <div class="row align-items-end">
-                <div class="col-5 col-sm-6 col-md-4"> 
-                    <div class="row justify-content-start align-items-end">
-                            <a>© 2024 Sam Bruchez</a>
-                        
+            <hr>
+        </header>
+        
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 offset-md-3 p-0">
+                        <p data-i18n="about_me">
+                            Sam Bruchez is a Swiss-American graphic designer based in NYC. 
+                            <br><br>
+                            Born and raised in the Swiss Alps, Sam combines his experiences in the outdoors with a keen eye for graphic design. He studied marketing at the University of Vermont and graphic design at écal (Lausanne). 
+                            <br><br>
+                            Over the past ten years, Sam has had extensive experience designing for outdoors and fashion brands in Zürich and New York. Some of his previous clients include The North Face, Head and Supreme. Professional portfolio and CV are available upon request. 
+                            <br><br>
+                            Recently, he’s been working with Verbier Tourisme Office and FUNDIS, a non-profit studying North American fungi. In his personal design work, Sam is interested in exploring obscure archivesof the district d'Entremont in Valais, the Swiss canton where he grew up.
+                            <br>
+                            more at <a href="https://www.instagram.com/echo.memo/" target="_blank">@echo.memo</a>
+                            <br><br>
+                            Skills: graphic design for print and digital, Wordpress, HTML/CSS/JS, fluent in English and French
+                            <br><br>
+                            Email: <a href="mailto:sam@sambruchez.com">sam@sambruchez.com</a>
+                            <br>
+                            Instagram: <a href="https://www.instagram.com/trickedbytrash/" target="_blank">@trickedbytrash</a>
+                        </p>
                     </div>
                 </div>
-
-                <div class="col-7 col-sm-6 col-md-4">
-                    <div class="row justify-content-end">
-                        <div>
-                            <ul>
-                                <li><a href="#" id="enLink" onclick="changeLanguage('en', event)">En</a></li>
-                                <li><a href="#" id="frLink" onclick="changeLanguage('fr', event)">Fr</a></li>
-                            </ul>
+            </div>
+        </main>
+    
+        <footer class="footer">
+            <hr>
+    
+            <div class="container-fluid">
+                <div class="row align-items-end">
+                    <div class="col-5 col-sm-6 col-md-4"> 
+                        <div class="row justify-content-start align-items-end">
+                                <a>© 2024 Sam Bruchez</a>
+                            
                         </div>
                     </div>
+    
+                    <div class="col-7 col-sm-6 col-md-4">
+                        <div class="row justify-content-end">
+                            <div>
+                                <ul>
+                                    <li><a href="#" id="enLink" onclick="changeLanguage('en', event)">En</a></li>
+                                    <li><a href="#" id="frLink" onclick="changeLanguage('fr', event)">Fr</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
                 </div>
-
             </div>
-        </div>
-    </footer>  
-    
-    
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</body>
+        </footer>  
+        
+        
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
 </html>
