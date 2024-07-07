@@ -20,7 +20,7 @@ body {
   line-height: 1.25em;
   letter-spacing: .05ch;
   overflow-y: scroll;
-  padding: 60px 10px 10px 10px;
+  padding: 47px 10px 10px 10px;
   overflow-x: hidden;
 }
 
@@ -79,7 +79,11 @@ a:hover {
 .project-card {
   display: flex;
   justify-content: center;
-  margin: 0 auto 70px;
+  margin: 0 auto 24px ;
+}
+
+.project-card h1 {
+  text-align: center;
 }
 
 .project-card img {
@@ -205,9 +209,6 @@ a:active {
 /* Styles for mobile devices */
 @media (max-width: 600px) {
   
-  body {
-    padding: 80px 10px 10px 10px;
-  }
 
   a:hover {
     color: #222222;
